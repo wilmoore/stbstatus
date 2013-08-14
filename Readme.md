@@ -1,6 +1,6 @@
 # Set Top Box Web Console
 
-[![Build Status](https://travis-ci.org/wilmoore/stbstatus.png?branch=master)](https://travis-ci.org/wilmoore/stbstatus)
+[![Build Status](https://travis-ci.org/wilmoore/stbstatus.png)](https://travis-ci.org/wilmoore/stbstatus)
 [![Build Status](https://david-dm.org/wilmoore/stbstatus.png)](https://david-dm.org/wilmoore/stbstatus)
 
   Web console for controlling your home set top boxes.
