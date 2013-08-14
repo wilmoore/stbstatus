@@ -4,7 +4,7 @@ var levelup = require('levelup');
 var bcrypt  = require('bcrypt');
 
 /**
- * route configuration for '/'
+ * route configuration for '/signin'
  */
 
 config.handler = function (request) {
