@@ -5,7 +5,7 @@ var bcrypt  = require('bcrypt');
 var fs      = require('fs');
 
 /**
- * route configuration for '/'
+ * route configuration for '/signup'
  */
 
 config.handler = function (request) {
