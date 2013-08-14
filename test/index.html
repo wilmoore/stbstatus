@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>stbstatus test suite</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script src="../www/js/lib/require.js"></script>
+    <script>
+      mocha.setup('bdd');
+      mocha.checkLeaks();
+      mocha.globals(['XMLHttpRequest']);
+
+      require(['require', './sinon', './signup', './signin'], function(require) {
+        mocha.run();
+      });
+    </script>
+  </body>
+</html>

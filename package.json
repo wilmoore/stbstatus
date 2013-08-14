@@ -1,0 +1,53 @@
+{
+  "name": "stbstatus",
+  "version": "0.0.0",
+  "description": "Web console for controlling your home set top boxes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilmoore/stbstatus.git"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://github.com/wilmoore/stbstatus/issues/raw/master/LICENSE"
+  },
+  "keywords": [
+    "stb",
+    "webconsole",
+    "television",
+    "settopbox",
+    "directv"
+  ],
+  "author": "Wil Moore III <wil.moore@wilmoore.com>",
+  "bugs": {
+    "url": "https://github.com/wilmoore/stbstatus/issues"
+  },
+  "dependencies": {
+    "hapi": "~1.9.0",
+    "passport-local": "~0.1.6",
+    "passport": "~0.1.17",
+    "scrypt": "~1.7.2",
+    "levelup": "~0.12.0",
+    "leveldown": "~0.6.2",
+    "graceful-fs": "~2.0.0",
+    "yar": "~0.3.1",
+    "passport-photo": "0.0.1-beta1",
+    "passport-photo-gravatar": "0.0.1-beta1",
+    "request": "~2.26.0",
+    "bunyan": "~0.21.4",
+    "uuid": "~1.4.1",
+    "handlebars": "~1.0.12",
+    "bcrypt": "~0.7.6",
+    "mailgun-js": "~0.2.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "coffee-script": "~1.6.3",
+    "sinon": "~1.7.3",
+    "jsdom": "~0.8.3",
+    "testem": "~0.3.24"
+  }
+}
