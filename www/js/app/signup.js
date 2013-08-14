@@ -5,7 +5,7 @@
  *  - field validation
  *  - form aggregation & submission
  *
- * NOTE: sure, this could have been done jQuery + Backbone's Model + validations;
+ * NOTE: sure, this could have been done with jQuery + Backbone's Model + validations;
  * however, rolling my own was much more fun for this excercise.
  */
 
