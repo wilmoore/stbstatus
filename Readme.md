@@ -22,6 +22,7 @@
 ## Installation
 
     % git clone https://github.com/wilmoore/stbstatus.git
+    % npm install
 
 ## Configuration
 
@@ -32,7 +33,6 @@ In order to send user registration emails, you'll need a mailgun account (the fr
 
 ## Starting the application
 
-    % npm install
     % node index.js
     % open http://localhost:7777
 
