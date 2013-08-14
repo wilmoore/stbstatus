@@ -42,6 +42,13 @@ In order to send user registration emails, you'll need a mailgun account (the fr
 
     % open test/index.html
 
+## Screenshots
+
+![](http://f.cl.ly/items/3b1l0Y3a1x2B1C2K1m2L/Image%202013.08.14%206%3A05%3A22%20AM.png)
+![](http://f.cl.ly/items/1l3w0X1F0T2f1f1J1K1Z/Image%202013.08.14%206%3A05%3A49%20AM.png)
+![](http://f.cl.ly/items/1m0W3O0K3K3M1D1x3n0L/Image%202013.08.14%206%3A05%3A58%20AM.png)
+![](http://f.cl.ly/items/3g1p3e062y1Z41063Y1P/Image%202013.08.14%206%3A06%3A09%20AM.png)
+
 ## Tech
 
 This application was built using:
@@ -50,8 +57,9 @@ This application was built using:
   - hapi
   - yar
   - leveldb
+  - levelup/leveldown
   - bcrypt
-  - mocha, chai, sinon, testem
+  - mocha, chai, sinon
   - bootstrap
 
 ## License
