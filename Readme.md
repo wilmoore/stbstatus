@@ -40,7 +40,9 @@ In order to send user registration emails, you'll need a mailgun account (the fr
 
 ## Invoking Test Suite
 
-    % open test/index.html
+    % make test
+
+  **NOTE**: You must have PhantomJS installed to invoke the test suite.
 
 ## Screenshots
 
