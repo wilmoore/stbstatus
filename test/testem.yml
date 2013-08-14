@@ -1,5 +1,1 @@
 framework: mocha
-before_tests: ./node_modules/.bin/coffee -c *.coffee
-on_exit: rm *.js
-src_files:
-  - "*.js"
