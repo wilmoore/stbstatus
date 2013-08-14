@@ -1,9 +1,5 @@
 # Set Top Box Web Console
 
-[![Build Status](https://travis-ci.org/wilmoore/stb-webconsole.png?branch=master)](https://travis-ci.org/wilmoore/stb-webconsole)
-[![Build Status](https://david-dm.org/wilmoore/stb-webconsole.png)](https://david-dm.org/wilmoore/stb-webconsole)
-[![NPM version](https://badge.fury.io/js/stb-webconsole.png)](http://badge.fury.io/js/stb-webconsole)
-
   Web console for controlling your home set top boxes.
 
 ## Current Features
@@ -44,7 +40,19 @@ In order to send user registration emails, you'll need a mailgun account (the fr
 
 ## Invoking Test Suite
 
-    % make test
+    % open test/index.html
+
+## Tech
+
+This application was built using:
+
+  - nodejs
+  - hapi
+  - yar
+  - leveldb
+  - bcrypt
+  - mocha, chai, sinon, testem
+  - bootstrap
 
 ## License
 
