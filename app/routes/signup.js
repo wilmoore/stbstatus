@@ -41,8 +41,8 @@ config.handler = function (request) {
       var mailgun  = require('mailgun-js')(api_key, domain);
 
       maildata = {
-        from: 'stbstatus <stbstatus@moorefamily.mailgun.org>',
-        to: 'wil.moore@wilmoore.com',
+        from: 'stbstatus <stbstatus@' + domain + '>',
+        to: payload.email,
         subject: 'Welcome to Stbstatus!',
         html: template.replace('{{email}}', payload.email)
       };
