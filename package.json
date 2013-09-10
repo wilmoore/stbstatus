@@ -26,19 +26,19 @@
     "url": "https://github.com/wilmoore/stbstatus/issues"
   },
   "dependencies": {
-    "hapi": "~1.10.0",
-    "levelup": "~0.15.0",
-    "leveldown": "~0.8.0",
-    "graceful-fs": "~2.0.0",
-    "yar": "~0.3.1",
-    "handlebars": "~1.0.12",
-    "bcrypt": "~0.7.6",
-    "mailgun-js": "~0.2.1",
-    "request": "~2.26.0"
+    "hapi": "*",
+    "levelup": "*",
+    "leveldown": "*",
+    "graceful-fs": "*",
+    "yar": "*",
+    "handlebars": "*",
+    "bcrypt": "*",
+    "mailgun-js": "*",
+    "request": "*"
   },
   "devDependencies": {
-    "mocha": "~1.12.0",
-    "sinon": "~1.7.3",
-    "testem": "~0.3.24"
+    "mocha": "*",
+    "sinon": "*",
+    "testem": "*"
   }
 }
